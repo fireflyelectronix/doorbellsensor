@@ -9,7 +9,7 @@ char mqtt_port[6] = "1883"; //default mqtt port
 char mqtt_username[20];
 char mqtt_password[20];
 char mqtt_topic[100] = "doorbellsensor/status"; //default mqtt topic
-char ifttt_key[40];
+char ifttt_key[44];
 
 //flag for saving data
 bool shouldSaveConfig = false;
@@ -74,7 +74,7 @@ void configPortal (){
   WiFiManagerParameter custom_mqtt_username("username", "mqtt username", mqtt_username, 20);
   WiFiManagerParameter custom_mqtt_password("password", "mqtt password", mqtt_password, 20);
   WiFiManagerParameter custom_mqtt_topic("topic", "mqtt topic", mqtt_topic, 100);
-  WiFiManagerParameter custom_ifttt_key("ifttt", "ifttt key", ifttt_key, 40);
+  WiFiManagerParameter custom_ifttt_key("ifttt", "ifttt key", ifttt_key, 44);
 
   //WiFiManager
   //Local intialization. Once its business is done, there is no need to keep it around
