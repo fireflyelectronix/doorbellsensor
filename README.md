@@ -10,7 +10,7 @@ This is the source code for the WiFi Doorbell Sensor from Firefly Electronix. Vi
 1. Download the latest .bin file from our releases https://github.com/fireflyelectronix/wifidoorbell/releases
 1. Press and hold SW1 within 10 seconds after installing the battery
 1. Connect to the WiFi Network - Firefly-xxxxxx
-1. Open your browser and navigate to 192.168.244.1 (Updating does not work throgh Apple's Captive Portal that pops up automatically)
+1. Open your browser and navigate to 192.168.244.1 or 192.168.4.1 (Updating does not work throgh Apple's Captive Portal that pops up automatically)
 1. Click on Update
 1. Click on Choose File and Select the .bin file that was downloaded in step 1
 1. Click on Update - It will automatically restart after update is completed. Settings will be kept after the update and not erased.
